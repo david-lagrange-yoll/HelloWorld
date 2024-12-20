@@ -8,11 +8,9 @@ public class Program {
 	}
 	
 	public static boolean CanGoCamping(int temperature) {
-		if (temperature > 20) {
-			return true;
-		}
 		
-		return false;
+		return temperature > 20;
+		
 	}
 
 }
